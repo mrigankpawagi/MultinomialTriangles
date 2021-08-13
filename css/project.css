@@ -1,0 +1,45 @@
+.container * {
+  font-family: charter, Georgia, Cambria, "Times New Roman", Times, serif;
+  font-size: 15px;
+}
+.container h1 {
+  font-family: fell, Georgia, Cambria, "Times New Roman", Times, serif;
+  font-size: 2rem;
+}
+.container h2,
+.container h3 {
+  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.container h2, .container h2 * {
+  font-size: 1.5rem;
+}
+.container h3 {
+  font-size: 1.2rem;
+}
+.container hr {
+  border: 1px solid #666;  
+  background: #666;
+  width: 50%;
+}
+.container ul > li {
+  list-style-type: disc !important;
+}
+.container img {
+  max-width: 100%;
+  display: block;
+  margin: auto;
+}
+.container blockquote {
+  border-color: #192854;
+  background: rgb(84 187 255 / 25%);
+  padding-top: 1px;
+  padding-bottom: 1px;
+}
+.container .math {
+  width: fit-content;
+  margin: 5px auto 5px auto;
+  font-family: system-ui;
+}
+.container .math * , mjx-container *{
+  font-family: "MJXTEX-S1"!important;
+}

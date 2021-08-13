@@ -1,0 +1,7 @@
+.collection .collection-item{
+    min-height: 63px!important;
+}
+.collection .collection-item .title{
+    line-height: 42px;
+    font-weight: 600;
+}
