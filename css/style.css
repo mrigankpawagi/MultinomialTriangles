@@ -116,7 +116,7 @@ nav .sidenav-trigger span {
 }
 .container .math *,
 mjx-container * {
-  font-family: "MJXTEX-S1" !important;
+  /*font-family: "MJXTEX-S1" !important;*/
 }
 .card img {
   max-width: 100%;
